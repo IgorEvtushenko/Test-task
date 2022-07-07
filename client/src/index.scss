@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto;
+}
+
+.button_link{
+    display: inline-block;
+    background: rgb(93, 182, 255);
+    color: black;
+    text-decoration: none;
+    padding: 0.6vw 1.2vw;
+    font-size: 1.3vw;
+    border-radius: 0.5vw;
+    border: none;
+    cursor: pointer;
+    &:visited{
+        color: black;
+    }
+    &:hover{
+        background: rgb(136, 199, 252);
+    }
+    &:active{
+        background: rgb(93, 182, 255);
+    }
+}
+
+.invalid_value{
+    position: relative;
+    input{
+        color: red;
+    }
+    &:after {
+        content: "Invalid value";
+        color: red;
+        text-decoration: underline;
+        font-size: 1vw;
+        display: block;
+        position: absolute;
+        right: 0;
+        bottom: -1.2vw;
+    }
+}

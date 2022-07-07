@@ -1,0 +1,39 @@
+createCompany
+http://localhost:5000/api/company
+method POST
+{
+    "name": "aaa",
+    "addres": "aaa",
+    "service_of_activity": "aaa",
+    "number_of_employees": "aaa",
+    "description": "aaa",
+    "type": "aaa",
+    "user_id": 3
+}
+////////////////////////////////////////////////////////////////////////////////
+getAllCompanies
+http://localhost:5000/api/companies?user_id=14
+method GET
+////////////////////////////////////////////////////////////////////////////////
+getOneCompany
+http://localhost:5000/api/company?user_id=3&id=1
+method GET
+////////////////////////////////////////////////////////////////////////////////
+updateCompany
+http://localhost:5000/api/company
+method PUT
+{
+    "name": "z",
+    "addres": "z",
+    "service_of_activity": "z",
+    "number_of_employees": "z",
+    "description": "z",
+    "type": "z",
+    "user_id": 3,
+    "id": 1
+}
+/////////////////////////////////////////////////////////////////////////////////
+deleteCompany
+http://localhost:5000/api/company/3/1
+method DELETE
+/////////////////////////////////////////////////////////////////////////////////

@@ -1,0 +1,39 @@
+.navbar{
+    background: rgb(93, 182, 255);
+    .navbar_ul{
+        padding: 1.5vw 4vw;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        .navbar_li{
+            list-style-type: none;
+            margin-right: 3vw;
+            &:last-child{
+                margin-right: 0;
+            }
+            .navbar_link{
+                font-size: 1vw;
+                background: rgb(245, 243, 243);
+                border: 1px solid rgb(245, 243, 243);
+                padding: 0.5vw 1vw;
+                border-radius: 0.5vw;
+                transition: all 0.5s;
+                text-decoration: none;
+                color: rgb(43, 43, 43);
+                &:visited{
+                    color: rgb(43, 43, 43);
+                }
+                &:hover{
+                    background: rgb(250, 250, 250);
+                    border: 1px solid rgb(158, 158, 158);
+                    cursor: pointer;
+                }
+                &:active{
+                    background: rgb(221, 221, 221);
+                    border: 1px solid rgb(221, 221, 221);
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,33 @@
+.userPage{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+    padding: 3vw 5vw;
+    ul{
+        background: rgb(233, 243, 252);
+        margin-bottom: 1.5vw;
+        border-radius: 0.5vw;
+        padding: 2vw;
+        li{
+            list-style-type: none;
+            border-bottom: 1px solid rgb(192, 192, 192);
+            margin-bottom: 1vw;
+            &:last-child{
+                margin-bottom: 0;
+            }
+            span{
+                font-size: 1.2vw;
+                overflow-wrap: break-word;
+                &:first-child{
+                    display: inline-block;
+                    width: 20vw;
+                }
+                &:last-child{
+                    display: inline-block;
+                    max-width: 66vw;
+                }
+            }
+        }
+    }
+}

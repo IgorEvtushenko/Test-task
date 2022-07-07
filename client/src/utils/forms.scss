@@ -1,0 +1,58 @@
+.registration,
+.autorization{
+    text-align: center;
+    padding-bottom: 5vw;
+    .page_name{
+        margin-top: 5vw;
+        font-size: 1.5vw;
+    }
+    .registration_form,
+    .autorization_form{
+        margin-top: 3vw;
+        .form_wrapper{
+            padding: 3vw 6vw;
+            display: inline-flex;
+            flex-direction: column;
+            align-items: flex-end;
+            .legend{
+                padding: 0 2vw;
+                font-size: 1.25vw;
+            }
+            .form_item{
+                margin-bottom: 2.2vw;
+                font-size: 1vw;
+                display: flex;
+                align-items: center;
+                input{
+                    margin-left: 1vw;
+                    width: 20vw;
+                    font-size: 1vw;
+                }
+                &:last-child{
+                    margin-bottom: 0;
+                }
+            }
+            .botton_wrapper{
+                width: 100%;
+                margin-top: 1vw;
+                border: none;
+                text-align: right;
+                button{
+                    background: rgb(108, 129, 250);
+                    padding: 0.8vw 2.5vw;
+                    border: none;
+                    color: white;
+                    font-size: 1vw;
+                    border-radius: 0.5vw;
+                    cursor: pointer;
+                    &:hover{
+                        background: rgb(133, 152, 255);
+                    }
+                    &:active{
+                        background: rgb(108, 129, 250);
+                    }
+                }
+            }
+        }
+    }
+}

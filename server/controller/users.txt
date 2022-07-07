@@ -1,0 +1,49 @@
+createUser
+http://localhost:5000/api/user
+method POST
+{
+    "email": "q",
+    "password": "q",
+    "phone_number": "q",
+    "last_name": "q",
+    "first_name": "q",
+    "nick_name": "q",
+    "description": "q",
+    "position": "q"
+}
+////////////////////////////////////////////////////////////////////////////////
+loginUser
+http://localhost:5000/api/login
+method POST
+{
+    "email": "q",
+    "password": "q"
+}
+////////////////////////////////////////////////////////////////////////////////
+getAllUsers
+http://localhost:5000/api/users
+method GET
+///////////////////////////////////////////////////////////////////////////////
+getOneUser
+http://localhost:5000/api/user/1
+method GET
+///////////////////////////////////////////////////////////////////////////////
+updateUser
+http://localhost:5000/api/user
+method PUT
+{
+    "id": 1,
+    "email": "qqqqqqqqqqqqqqqq",
+    "password": "qqqqqqqqqqqqqqq",
+    "phone_number": "qqqqqqqqqqqqqqq",
+    "last_name": "qqqqqqqqqqqqqqqq",
+    "first_name": "qqqqqqqqqqqqqqqqq",
+    "nick_name": "qqqqqqqqqqqqqqqqqq",
+    "description": "qqqqqqqqqqqqqqqqqqqqqq",
+    "position": "qqqqqqqqqqqqqqqqqq"
+}
+////////////////////////////////////////////////////////////////////////////////
+deleteUser
+http://localhost:5000/api/user/2
+method DELETE
+////////////////////////////////////////////////////////////////////////////////

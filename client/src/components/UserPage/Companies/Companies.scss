@@ -1,0 +1,45 @@
+.companies_wrapper{
+    padding: 0 5vw 2vw 5vw;
+    .companies_list{
+        padding: 2vw 0 2vw 0;
+        h1{
+            margin: 1vw 0 2vw 0;
+            font-size: 1.5vw;
+            font-weight: 400;
+            text-align: center;
+        }
+        .company{
+            background: rgb(233, 243, 252);
+            margin-bottom: 2vw;
+            border-radius: 0.5vw;
+            padding: 2vw 5vw 2vw 5vw;
+            h2{
+                text-align: center;
+                font-size: 1.5vw;
+                font-weight: 400;
+                margin-bottom: 1vw;
+            }
+            &:last-child{
+                margin-bottom: 0;
+            }
+            p{
+                font-size: 1.2vw;
+                border-bottom: 1px solid rgb(182, 181, 181);
+                margin-bottom: 1vw;
+                span{
+                    &:first-child{
+                        display: inline-block;
+                        width: 30vw;
+                    }
+                    &:last-child{
+                        overflow-wrap: break-word;
+                    }
+                }
+            }
+            .button_wrapper{
+                text-align: right;
+                margin-top: 2vw;
+            }
+        }
+    }
+}

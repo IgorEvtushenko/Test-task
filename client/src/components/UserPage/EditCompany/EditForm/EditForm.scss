@@ -1,0 +1,36 @@
+.companies_form{
+    margin-top: 2vw;
+    border: 1px solid rgb(172, 171, 171);
+    border-radius: 0.5vw;
+    padding: 2vw;
+    .form_fields{
+        border: none;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        label{
+            margin-bottom: 2vw;
+            font-size: 1.2vw;
+            input{
+                margin-left: 1vw;
+                font-size: 1.2vw;
+                width: 20vw;
+            }
+        }
+    }
+    .link_wrapper{
+        border: none;
+        text-align: end;
+    }
+}
+.delete_button_wrapper{
+    width: 100%;
+    padding-top: 2vw;
+    text-align: right;
+    .delete_button_link{
+        background: rgb(255, 107, 107);
+    }
+}
+.empty_message{
+    margin-top: 4vw;
+}
